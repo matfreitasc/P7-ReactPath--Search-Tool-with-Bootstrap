@@ -1,0 +1,159 @@
+.card {
+  background-color: #E7E7E7;
+  width: 380px;
+  padding: 0px;
+  border: none;
+  border-radius: 5px;
+  font-family: "lato", sans-serif;
+}
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+.card .card-body .card-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+}
+.card .card-body .card-head .card-title {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "lato", sans-serif;
+  max-width: 50%;
+}
+.card .card-body .card-head .card-text {
+  font-weight: 700;
+}
+.card .card-body .card-head .fa-clock {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+}
+.card .card-description {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+  gap: 20px;
+  font-size: 12px;
+}
+.card .card-description .card-ingredients {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  width: 50%;
+}
+.card .card-description .card-text {
+  max-width: 50%;
+  margin-bottom: 20px;
+}
+
+#cards {
+  gap: 74px;
+}
+
+.filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  cursor: default;
+  align-items: center;
+  align-content: center;
+  max-width: 100px;
+  border-radius: 5px;
+  padding: 5px !important;
+}
+.filter p {
+  margin: 0px;
+}
+.filter p .filter-icon {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.form-input::placeholder {
+  color: white;
+  opacity: 0.75;
+}
+.form-input::placeholder:-ms-input-placeholder {
+  color: white;
+}
+
+.dropdown {
+  position: relative !important;
+}
+.dropdown .arrow {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  color: #fff;
+  font-size: 1.1rem;
+  -webkit-text-stroke: 1px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.btn-primary {
+  background-color: #3282F7 !important;
+  border: none !important;
+}
+
+.btn-success {
+  background-color: #68D9A4 !important;
+  border: none !important;
+}
+
+.search-form {
+  position: relative;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+.search-form .search-icon {
+  position: absolute;
+  cursor: pointer;
+  right: 20px;
+  top: 50%;
+  color: rgb(0, 0, 0);
+  font-size: 1.1rem;
+  -webkit-text-stroke: 1px;
+  transform: translateY(-50%);
+}
+.search-form .form-input {
+  font-size: 18px;
+  text-indent: 33px;
+  border-radius: 10px;
+  padding: 15px;
+  border: none;
+  background-color: #e7e7e7;
+}
+.search-form .form-input::focus {
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+.search-form .form-input::placeholder {
+  color: black;
+  opacity: 0.75;
+  color: #ADADAD;
+}
+.search-form .form-input:-ms-input-placeholder {
+  color: #ADADAD;
+}
+
+ul, li {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+html, body {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.logo {
+  margin: 0 auto;
+  width: 250px;
+}
+
+/*# sourceMappingURL=main.css.map */

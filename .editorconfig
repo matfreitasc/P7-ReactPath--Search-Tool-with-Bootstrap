@@ -1,0 +1,23 @@
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+indent_style = tab
+trim_trailing_whitespace = true
+indent_size = 2
+
+# Matches multiple files with brace expansion notation
+# Set default charset
+[*.js]
+charset = utf-8
+
+[*.css]
+indent_size = 2
+indent_style = tab
+trim_trailing_whitespace = true
+
+[*.sass]
+indent_size = 2
+indent_style = tab
+trim_trailing_whitespace = true
