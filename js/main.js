@@ -23,9 +23,9 @@ recepieList.forEach((recepie) => {
 });
 
 const recepieSearch = document.getElementById("search");
-// recepieSearch.addEventListener("keyup", () => {
-// 	CardTrie({ recepieList, recepieSearch });
-// });
+recepieSearch.addEventListener("keyup", () => {
+	CardTrie({ recepieList, recepieSearch });
+});
 const searchBarForm = document.getElementById("searchBarForm");
 searchBarForm.addEventListener("submit", (e) => {
 	e.preventDefault();
