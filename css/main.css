@@ -105,6 +105,11 @@
   border: none !important;
 }
 
+.btn-danger {
+  background-color: #ED6454 !important;
+  border: none !important;
+}
+
 .search-form {
   position: relative;
   font-family: "Lato", sans-serif;
